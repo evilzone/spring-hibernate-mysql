@@ -20,15 +20,15 @@ The following guides illustrate how to use some features concretely:
 
 
 
-API name            HTTP method        Path                     Status code         Description
+API name                HTTP method           Path                          Status code             Description
 ----------------------------------------------------------------------------------------------------------------------
 
-GET employees       GET                /api/v1/employees        200 (OK)            All employee resources are fetched
+GET employees           GET                   /api/v1/employees             200 (OK)                All employee resources are fetched
 
-POST employees      POST               /api/v1/employees        201 (CREATED)       A new employee resource is created
+POST employees          POST                  /api/v1/employees             201 (CREATED)           A new employee resource is created
 
-GET employee        GET                /api/v1/employees/{id}   200 (OK)            One employee resource is fetched
+GET employee            GET                   /api/v1/employees/{id}        200 (OK)                One employee resource is fetched
 
-PUT employee        PUT                /api/v1/employees/{id}   200 (OK)            Employee resource is updated
+PUT employee            PUT                   /api/v1/employees/{id}        200 (OK)                Employee resource is updated
 
-DELETE employee     DELETE             /api/v1/employees/{id}   204 (NO CONTENT)    Employee resource is deleted
+DELETE employee         DELETE                /api/v1/employees/{id}        204 (NO CONTENT)        Employee resource is deleted
