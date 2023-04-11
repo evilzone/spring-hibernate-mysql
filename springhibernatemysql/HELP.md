@@ -18,3 +18,17 @@ The following guides illustrate how to use some features concretely:
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 * [Accessing data with MySQL](https://spring.io/guides/gs/accessing-data-mysql/)
 
+
+
+API name            HTTP method        Path                     Status code         Description
+----------------------------------------------------------------------------------------------------------------------
+
+GET employees       GET                /api/v1/employees        200 (OK)            All employee resources are fetched
+
+POST employees      POST               /api/v1/employees        201 (CREATED)       A new employee resource is created
+
+GET employee        GET                /api/v1/employees/{id}   200 (OK)            One employee resource is fetched
+
+PUT employee        PUT                /api/v1/employees/{id}   200 (OK)            Employee resource is updated
+
+DELETE employee     DELETE             /api/v1/employees/{id}   204 (NO CONTENT)    Employee resource is deleted
